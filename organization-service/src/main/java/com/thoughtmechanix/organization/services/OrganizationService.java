@@ -13,7 +13,7 @@ public class OrganizationService {
     private OrganizationRepository orgRepository;
 
     public Organization getOrg(String organizationId) {
-        return orgRepository.findById(organizationId);
+        return orgRepository.findOne(organizationId);
     }
 
     public void saveOrg(Organization org){
@@ -28,6 +28,6 @@ public class OrganizationService {
     }
 
     public void deleteOrg(Organization org){
-        orgRepository.delete( org.getId());
+        orgRepository.delete(org);
     }
 }
