@@ -8,5 +8,4 @@ import java.util.List;
 
 @Repository
 public interface OrganizationRepository extends CrudRepository<Organization,String>  {
-    Organization findOne(String organizationId);
 }
