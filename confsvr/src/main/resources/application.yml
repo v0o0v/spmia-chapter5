@@ -20,7 +20,7 @@ spring:
       server:
         encrypt.enabled: false
         git:
-          uri: https://github.com/klimtever/config-repo/
+          uri: https://github.com/v0o0v/config-repo/
           searchPaths: licensingservice,organizationservice
           username: native-cloud-apps
           password: 0ffended
